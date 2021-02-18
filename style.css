@@ -3,13 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
 .wrapper {
-    background: url('images/foto.jpg');
+    background: url('images/www.jpg');
     background-size: cover;
-    height:100vh
+    height: 100vh
 }
-
 .navbar {
     position: fixed;
     top:0;
@@ -17,67 +15,90 @@
     height:  80px;
     width: 100%;
     background: rgba(0,0,0,0.4);
-
 }
-.lion {
-    width: 150px;
+.images {
+    width: 140px;
     height: auto;
-    padding-left: 100px;
-    padding-top: 10;
-
+    position: relative;
+    margin: -45px 0px 0 0;
 }
 .navbar ul {
     float: right;
     margin-right: 20px;
-
 }
 .navbar ul li {
     list-style: none;
+    margin: 0 8px;
     display:inline-block;
-    margin-top: 0;
-    margin-right: 10px;
-    margin-left: 80px;
+    line-height: 80px;
 }
-
 .navbar ul li a {
-    text-decoration: None;
-    font-size: 26px;
-    color:white;
+    font-size: 20px;
     font-family: "Roboto",sans-serif;
+    color: white;
     padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
 }
-
 .navbar ul li a.active,
 .navbar ul li a:hover {
     background: red;
     border-radius: 2px;
 }
-.center {
+.wrapper.center {
     position:absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%, -50%);
     font-family: sans-serif;
-
+    user-select: none;
 }
-
 .center h1 {
     color: white;
-    text-align: center;
-    font-size: 50px;
-    width:900px;
+    font-size: 70px;
+    width:700px;
     font-weight: bold;
+    text-align: center;
 }
-
 .center h2 {
     color:white;
-    text-align: center;
-    font-size: 30px;
+    font-size: 70px;
     font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
 }
-.center{
-    margin-top: ;
+.center.buttons{
+    margin: 35px 280px;
 }
-.col-md-6{
-    width: 30%;
+.buttons batton{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffb3d3;
+    background: red;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #cc0000;
+    border-radius: 25px;
+    transition: .4s;
+}
+.buttons .btn2{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: #cc0000;
+}
+.container{
+    margin-top: 50px;
+}
+.landing-card a{
+    background-color: rgb(212, 16,16)
+}
+.second-row{
+    margin-top: 50px;
+}
+#info-img{
+    width: 100%;
 }
