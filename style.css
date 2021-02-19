@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 .wrapper {
-    background: url('images/www.jpg');
+    background: url('images/www.jpg') no-repeat;
     background-size: cover;
     height: 100vh
 }
 .navbar {
     position: fixed;
-    top:0;
-    left:0;
     height:  80px;
     width: 100%;
+    top:0;
+    left:0;
     background: rgba(0,0,0,0.4);
 }
 .images {
@@ -56,7 +56,7 @@
 .center h1 {
     color: white;
     font-size: 70px;
-    width:700px;
+    width:900px;
     font-weight: bold;
     text-align: center;
 }
@@ -71,7 +71,7 @@
 .center.buttons{
     margin: 35px 280px;
 }
-.buttons batton{
+.buttons button{
     height: 50px;
     width: 150px;
     font-size: 18px;
@@ -84,8 +84,13 @@
     border-radius: 25px;
     transition: .4s;
 }
+.buttons {
+    margin-left: 500px;
+    
+}
 .buttons .btn2{
-    margin-left: 25px;
+    margin-left: 100px;
+
 }
 .buttons button:hover{
     background: #cc0000;
